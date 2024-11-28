@@ -1,2 +1,124 @@
 AI tool used Odoo.com
 Link for the homepage- https://theviruuofficial.odoo.com/
+code i used to support creating web page
+CSS-
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background: #000;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.navbar .contact-button {
+  background: #007BFF;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.hero {
+  background: url('hero-background.jpg') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background: #007BFF;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.skills-list img {
+  height: 50px;
+  margin: 10px;
+}
+
+footer {
+  background: #000;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.html -----------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The cOde Guyzs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">Events</a>
+      <a href="#">Courses</a>
+      <a href="#">Company</a>
+      <a href="#">Help</a>
+      <a href="#" class="contact-button">Contact Us</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>The cOde Guyzs</h1>
+      <p>Programming</p>
+      <button>Contact Us</button>
+    </div>
+  </section>
+
+  <section class="interests">
+    <h2>My Interests</h2>
+    <ul>
+      <li>Cricket</li>
+      <li>Reading Storybooks</li>
+      <li>Coding</li>
+      <li>Outdoor Games</li>
+      <li>Learning New Technologies</li>
+    </ul>
+  </section>
+
+  <section class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+      <img src="python-logo.png" alt="Python">
+      <img src="data-flair-logo.png" alt="Data Flair">
+      <img src="other-logo.png" alt="Other">
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>Designed for project and assessment.</p>
+      <div class="contact-info">
+        <p>Email: thecodeguyz@example.com</p>
+        <p>Phone: +91 9000000000</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
